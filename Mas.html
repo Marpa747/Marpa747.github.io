@@ -36,6 +36,23 @@ De Pantalla</big></big></a>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </td></tr></tbody></table><br>
 
+<input name="valor1" id="valor1" onkeyup="multi()"> * 
+<input name="valor2" id="valor2" onkeyup="multi()"> = <span id="resultado"></span>
+
+<script>
+function multi(){
+  var valor1=document.getElementById("valor1").value;
+  var valor2=document.getElementById("valor2").value;
+  var res= valor1 * valor2;
+  document.getElementById("resultado").innerHTML = res;
+  console.log("hola");
+}
+</script>
+
+
+
+
+<br>
 
 
 </body></html>
